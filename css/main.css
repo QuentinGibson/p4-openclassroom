@@ -1,0 +1,32 @@
+.nav-link {
+  font-size: 18px;
+}
+.subheading-text {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2em;
+}
+
+.social-container {
+  max-width: 300px;
+}
+
+.services .bi {
+  width: 9em;
+  height: 9em;
+}
+
+.christmas-bg {
+  background-image: url(../img/christmas-bg.svg);
+}
+
+.text-white {
+  color: white;
+}
+
+.btn-cta {
+  font-size: 24px;
+}
+
+.service-icon {
+  color: blue;
+}
