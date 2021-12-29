@@ -30,3 +30,17 @@
 .service-icon {
   color: blue;
 }
+
+.leading-bar::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 3px;
+  margin-top: 10px;
+  background-color: paleturquoise;
+}
+
+.card-body {
+  height: 300px;
+}
