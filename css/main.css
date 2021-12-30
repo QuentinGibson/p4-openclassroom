@@ -44,3 +44,11 @@
 .card-body {
   height: 300px;
 }
+
+.modal-image-container {
+  height: 70vh;
+}
+
+.work-card {
+  width: 200px;
+}
