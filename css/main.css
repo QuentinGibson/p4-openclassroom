@@ -52,3 +52,12 @@
 .work-card {
   width: 200px;
 }
+
+.btn-contact {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  color: #f3f3f3;
+}
