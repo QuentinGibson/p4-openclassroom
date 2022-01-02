@@ -1,18 +1,18 @@
 .nav-link {
-  font-size: 18px;
+  font-size: 21px;
 }
 .subheading-text {
   font-family: 'Helvetica', sans-serif;
-  font-size: 2em;
+  font-size: 5em;
 }
 
 .social-container {
-  max-width: 300px;
+  max-width: 303px;
 }
 
 .services .bi {
-  width: 9em;
-  height: 9em;
+  width: 12em;
+  height: 12em;
 }
 
 .christmas-bg {
@@ -27,7 +27,7 @@
 }
 
 .btn-cta {
-  font-size: 24px;
+  font-size: 27px;
 }
 
 .service-icon {
@@ -38,22 +38,22 @@
   content: "";
   display: block;
   position: relative;
-  width: 100px;
-  height: 3px;
-  margin-top: 10px;
+  width: 103px;
+  height: 6px;
+  margin-top: 13px;
   background-color: paleturquoise;
 }
 
 .card-body {
-  height: 300px;
+  height: 303px;
 }
 
 .modal-image-container {
-  height: 70vh;
+  height: 73vh;
 }
 
 .work-card {
-  width: 200px;
+  width: 203px;
 }
 
 .btn-contact {
@@ -62,5 +62,27 @@
 }
 
 .btn-contact:hover {
-  color: #f3f3f3;
+  color: #f6f3f3;
+}
+
+.small-heading {
+  margin: 0.5em 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-label {
+  font-weight: 703 ;
+  font-size: 21px;
+}
+
+.form-control {
+
+}
+
+.contact-information span{
+  display: block;
+  font-size: 22px;
+  margin-bottom: 0.5em;
+
 }

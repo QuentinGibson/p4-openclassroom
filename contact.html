@@ -17,7 +17,7 @@
 
 <body>
   <header class="">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a href="/index.html" class="navbar-brand"><img height="40" src="./img/atlanta web design logo.png"
             alt="Logo for Go Mike Design"></a>
@@ -35,10 +35,88 @@
     </nav>
   </header>
   <main>
-    <section>
-      <form action="includes/form_1.php">
+    <section class="">
+      <div class="bg-danger">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="d-flex align-content-center justify-content-center">
+                <p class="text-white text-center small-heading">Let's talk web design!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="text-white text-center ">
+              I'm super excited that you want to work together.<br>Please fill in the form below or get in touch
+              so I can learn about your project <br>and we can setup time to talk websites and Atlanta city love.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      </form>
+    <section class="mb-5">
+      <div class="container bloc-lg">
+        <div class="row">
+          <div class="col-sm-6">
+            <form id="form_1" class="row g-3 overflow-hidden mb-5" novalidate>
+              <div class="col">
+                <label for="name" class="form-label">Name</label>
+                <input id="name" class="form-control" required />
+                <div class="valid-feedback">Great! ��</div>
+                <div class="invalid-feedback">Please enter your name</div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" class="form-control" type="email" required />
+                <div class="valid-feedback">Great! ��</div>
+                <div class="invalid-feedback">Please enter your email</div>
+              </div>
+              <div class="form-group">
+                <label for="find-me" class="form-label">How did you find me</label>
+                <input class="form-control" type="text" required id="find-me" />
+                <div class="valid-feedback">Great! ��</div>
+                <div class="invalid-feedback">Please select an option</div>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label"> Project brief </label>
+                <p class="form-text">Please be as detailed as possible including your company goals and any
+                  improvements you would like to have over your current website</p>
+                <textarea placeholder="Enter your brief here" id="message" class="form-control" rows="4" cols="50"
+                  required></textarea>
+                <div class="valid-feedback">Great! ��</div>
+                <div class="invalid-feedback">Please enter something for the brief</div>
+              </div>
+              <button class="btn btn-dark text-white" type="submit">
+                Submit to Mike!
+              </button>
+            </form>
+          </div>
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="container">
+                <div class="g-2">
+                  <p class="contact-information">
+                    <span>mike@gomikedesigns.com</span>
+                    <span>+1 (404) 555-1234</span>
+                    <span>123 Peachtree Ave. Atlanta, GA</span>
+                    <span>Available 9am–5pm,</span>
+                    <span>Mon-Fri</span>
+                    <span>
+                      Interested to learn about my freelace services? <br>
+                      Please visit my <a class="ltc-atomic-tangerine" href="index.html">other page</a>.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="bg-dark py-5">
