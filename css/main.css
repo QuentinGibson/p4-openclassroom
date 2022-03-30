@@ -1,6 +1,7 @@
 .nav-link {
   font-size: 21px;
 }
+
 .subheading-text {
   font-size: 2em;
 }
@@ -71,17 +72,20 @@
 }
 
 .form-label {
-  font-weight: 703 ;
+  font-weight: 703;
   font-size: 21px;
 }
 
-.form-control {
+.form-control {}
 
-}
-
-.contact-information span{
+.contact-information span {
   display: block;
   font-size: 22px;
   margin-bottom: 0.5em;
 
+}
+
+.heading-background {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 40px;
 }
