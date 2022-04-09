@@ -20,11 +20,11 @@
   height: 12em;
 }
 
-.christmas-bg {
-  background-image: url(../images/purple-neon-circuit-banner.svg);
+.svg-background {
+  background-image: url(../img/svg-background.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
 }
 
 .text-white {
