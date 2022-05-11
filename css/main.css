@@ -1,8 +1,18 @@
 .nav-link {
   font-size: 21px;
 }
+
 .subheading-text {
   font-size: 2em;
+
+}
+
+.logo {
+  height: 40px;
+}
+
+.bold {
+  font-weight: bold
 }
 
 .social-container {
@@ -14,11 +24,11 @@
   height: 12em;
 }
 
-.christmas-bg {
-  background-image: url(../images/purple-neon-circuit-banner.svg);
+.svg-background {
+  background-image: url(../images/svg-background.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
 }
 
 .text-white {
@@ -71,17 +81,20 @@
 }
 
 .form-label {
-  font-weight: 703 ;
+  font-weight: 703;
   font-size: 21px;
 }
 
-.form-control {
+.form-control {}
 
-}
-
-.contact-information span{
+.contact-information span {
   display: block;
   font-size: 22px;
   margin-bottom: 0.5em;
 
+}
+
+.heading-background {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 40px;
 }
